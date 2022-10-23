@@ -9,21 +9,32 @@
 /* Begin PBXBuildFile section */
 		80F34D0B29048539005A2530 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F34D0A29048539005A2530 /* AppDelegate.swift */; };
 		80F34D0D29048539005A2530 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F34D0C29048539005A2530 /* SceneDelegate.swift */; };
-		80F34D0F29048539005A2530 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F34D0E29048539005A2530 /* ViewController.swift */; };
+		80F34D0F29048539005A2530 /* ConfirmPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F34D0E29048539005A2530 /* ConfirmPhoneViewController.swift */; };
 		80F34D1229048539005A2530 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F34D1029048539005A2530 /* Main.storyboard */; };
 		80F34D142904853A005A2530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F34D132904853A005A2530 /* Assets.xcassets */; };
 		80F34D172904853A005A2530 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F34D152904853A005A2530 /* LaunchScreen.storyboard */; };
+		80F34D22290486B9005A2530 /* EnterPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F34D21290486B9005A2530 /* EnterPhoneViewController.swift */; };
+		80F34D24290486C2005A2530 /* EnterPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F34D23290486C2005A2530 /* EnterPassViewController.swift */; };
+		80F34D282904A434005A2530 /* EnterNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F34D272904A434005A2530 /* EnterNumberViewController.swift */; };
+		80F34D2A2904A448005A2530 /* EnterBirthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F34D292904A448005A2530 /* EnterBirthViewController.swift */; };
+		80F34D2D2904AAE1005A2530 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F34D2C2904AAE1005A2530 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		80F34D0729048539005A2530 /* Coordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F34D0A29048539005A2530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80F34D0C29048539005A2530 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		80F34D0E29048539005A2530 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80F34D0E29048539005A2530 /* ConfirmPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPhoneViewController.swift; sourceTree = "<group>"; };
 		80F34D1129048539005A2530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80F34D132904853A005A2530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80F34D162904853A005A2530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80F34D182904853A005A2530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F34D21290486B9005A2530 /* EnterPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPhoneViewController.swift; sourceTree = "<group>"; };
+		80F34D23290486C2005A2530 /* EnterPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPassViewController.swift; sourceTree = "<group>"; };
+		80F34D272904A434005A2530 /* EnterNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNumberViewController.swift; sourceTree = "<group>"; };
+		80F34D292904A448005A2530 /* EnterBirthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterBirthViewController.swift; sourceTree = "<group>"; };
+		80F34D2B2904A6A7005A2530 /* Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		80F34D2C2904AAE1005A2530 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +67,29 @@
 		80F34D0929048539005A2530 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				80F34D202904866A005A2530 /* View */,
 				80F34D0A29048539005A2530 /* AppDelegate.swift */,
 				80F34D0C29048539005A2530 /* SceneDelegate.swift */,
-				80F34D0E29048539005A2530 /* ViewController.swift */,
 				80F34D1029048539005A2530 /* Main.storyboard */,
 				80F34D132904853A005A2530 /* Assets.xcassets */,
 				80F34D152904853A005A2530 /* LaunchScreen.storyboard */,
 				80F34D182904853A005A2530 /* Info.plist */,
+				80F34D2B2904A6A7005A2530 /* Test.playground */,
+				80F34D2C2904AAE1005A2530 /* Data.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		80F34D202904866A005A2530 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80F34D21290486B9005A2530 /* EnterPhoneViewController.swift */,
+				80F34D0E29048539005A2530 /* ConfirmPhoneViewController.swift */,
+				80F34D23290486C2005A2530 /* EnterPassViewController.swift */,
+				80F34D272904A434005A2530 /* EnterNumberViewController.swift */,
+				80F34D292904A448005A2530 /* EnterBirthViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80F34D0F29048539005A2530 /* ViewController.swift in Sources */,
+				80F34D22290486B9005A2530 /* EnterPhoneViewController.swift in Sources */,
+				80F34D0F29048539005A2530 /* ConfirmPhoneViewController.swift in Sources */,
+				80F34D282904A434005A2530 /* EnterNumberViewController.swift in Sources */,
+				80F34D24290486C2005A2530 /* EnterPassViewController.swift in Sources */,
 				80F34D0B29048539005A2530 /* AppDelegate.swift in Sources */,
 				80F34D0D29048539005A2530 /* SceneDelegate.swift in Sources */,
+				80F34D2A2904A448005A2530 /* EnterBirthViewController.swift in Sources */,
+				80F34D2D2904AAE1005A2530 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
